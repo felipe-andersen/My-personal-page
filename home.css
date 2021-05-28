@@ -1,0 +1,862 @@
+/*:root {
+    --
+}*/
+
+
+
+
+html, body, ul, li, a, #navegação {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: arial;
+    text-decoration: none;
+    font-size: 62.5%;
+    font-family: arial;
+   
+    
+}
+
+/*background: #0C1016*/
+
+header {
+    width: 100%;
+ 
+    height: 40px;
+    background: #0C1016;
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: space-between;
+   
+ 
+} 
+
+
+/* minmax repeat(autofit, 35px, 50px)*/
+
+.l-logo { 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    grid-area: ho;
+    color: #474747;
+    font-size: 13px;
+    
+}
+
+#note {
+    color: #474747;
+    text-decoration: none;
+}
+
+ul {display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+.l-nav {
+    grid-area: ha;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navegação {
+    color: #474747;
+}
+
+.frente {
+    
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "oa oe oi";
+    border-bottom: 2px solid black;
+}  
+
+
+.div_perfil {
+    color: #474747;
+    background-color: white;
+    grid-area: oa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px 40px 40px;
+    font-size: 1.9rem;
+}
+
+
+.div_perfil > h1 {
+    margin-bottom: 3px;
+    font-size: 2.4rem;
+}
+
+.div_perfil > p {
+ margin: 0;
+}
+
+
+.imgprofile {
+    width: 68px;
+    height: 68px;
+    background-color: black;
+    border-radius: 50px;
+    margin: -65px 0 10px 0;
+
+}
+
+
+.div_projetos {
+    color: #474747;
+    background-color: white;
+   
+    grid-area: oe;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 40px 40px 40px 40px;
+}
+.div_projetos_div{
+    display: flex;
+    flex-direction: column;
+    color: #474747;
+    font-family: arial;
+    font-size: 1.9rem;
+}
+
+.div_projetos_div > p {
+    margin-top: 25px;
+}
+
+.div_projetos_div_div {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    color: #474747;
+    font-family: arial;
+    font-size: 1.9rem;
+}
+
+
+.div_projetos_div_div > a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 2.1rem;
+}
+
+
+
+
+.div_projetos_box {
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+.div_midias {
+    color: #474747;
+    background-color: white;
+   
+    grid-area: oe;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    padding: 40px 40px 40px 40px;
+}
+.div_midias_div{
+    display: flex;
+    flex-direction: column;
+  
+    color: #474747;
+    font-family: arial;
+    font-size: 1.9rem;
+}
+
+.div_midias_div > p {
+    margin-top: 25px;
+}
+
+.div_midias_div_div {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    color: #474747;
+    font-family: arial;
+    font-size: 1.9rem;
+}
+
+
+.div_midias_div_div > a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 2.1rem;
+}
+
+/*
+ackground-color: #7F7F7F;
+    border-radius: 5 px;
+   
+    margin: 5px;color: white;
+*/
+
+
+.div_midias {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 40px;
+    grid-area: oi;
+}
+/* Linha recebe padding. dentro de um display flex que tem padding.*/
+
+.div_midias_box {
+
+    display: flex;
+   padding: 2px;
+  
+
+}
+
+
+
+/*
+.nome {
+    width: 210px;
+    height: 44px;
+    background-color: white;
+    color: black;
+    font-size: 1.6vw;
+    
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    margin-top: 318px;
+    left: calc(50% - 105px);
+}
+
+
+img {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 160px;
+    left: calc(50% - 100px);
+}
+*/
+
+
+
+
+/*
+.botões > div {
+    display: flex;
+    justify-content: space-between;
+}
+*/
+   
+.botoes {
+    width: 100%;
+    height: 100px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}    
+
+.botoes > a {
+    text-decoration: none;
+   font-size: 2.1rem;
+    padding: 7px 18px 7px 18px;
+    border: 2px solid blue;
+    color: blue;
+    border-radius: 8px;
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+.conteúdo {
+    box-sizing: border-box;
+    display: grid;
+    grid-auto-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "ta te";
+    background-color: white;               
+    
+}
+
+
+main {
+    max-width: 640px;
+    min-width: 470px;
+    display: flex;
+    flex-direction: column;
+   justify-self: right;
+    grid-area: ta;
+  
+    align-items: flex-end;
+    margin-left: 40px;
+    margin-right: 7px;
+   
+   
+    
+}
+
+.main__div1 {
+  
+    background-color:  white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 15px;
+   
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: rgb(71, 71, 71)
+  
+   
+}
+
+#main__div2 {
+    background-color:  white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: rgb(71, 71, 71)
+  
+    
+}
+
+#ecossistema {
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 40px;
+    border-radius: 15px;
+    font-family: arial;
+    
+    font-size: 2.1rem;
+    line-height: 1.4;
+    color: rgb(71, 71, 71)
+    
+  
+
+}
+
+
+.info {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info > div {
+    width: 170px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid black;
+  
+    border-radius: 15px 15px 0px 0px;
+    
+}
+
+.info__fist {
+    margin: 0 10px 10px 0;
+}
+
+.info__second {
+    margin: 0 0px 10px 0;
+}
+
+.info__third {
+    margin: 0 10px 0px 0;
+}
+
+.info__fourth {
+    margin: 0px 0px 0px 0px;
+}
+
+aside {
+    max-width: 400px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    grid-area: te;
+    justify-self: left;
+  margin-left: 7px;
+    align-items: flex-start;
+  
+    
+}
+
+.midias {
+    font-size: 2.1rem;
+    color: #474747;
+    line-height: 1.4;
+    background-color: white;
+    border: 2px solid black;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas: "fa"
+                          "fe";
+
+    /*margin: 13px 0px 13px 7px*/
+    margin:none;
+    
+    border-radius: 15px;
+    
+  
+
+}
+
+.interesses  {
+    grid-area: fe;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 0;
+   align-content: center;
+}
+
+.interesses > p {
+    color: white;
+    max-height: 35px;
+    padding: 7px 18px 7px 18px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 8px;
+    margin: 7px 7px  7px 0;
+    justify-content: center;
+    
+}
+
+
+.midias_header {
+    
+    border-radius: 15px 15px 0 0 ;
+    border: 2px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+
+
+.quadrados {
+    
+    background-color: white;
+    border: 2px solid black;
+    margin:none;
+    padding: 40px;
+    border-radius: 15px;
+    color: #7F7F7F;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*box-sizing: border-box;*/
+    justify-content: center;
+    
+    
+    
+}
+
+   
+
+#box {
+    width: 35px;
+    height: 35px;
+    background-color: #474747;
+    margin: 5px;
+    border-radius: 50px;
+    transition: right 1s linear;
+    transition: background-color 1s linear;
+    
+    
+    
+ 
+}
+
+#box:hover {
+  
+   background-color: blue;
+}
+
+
+.teste {
+    width: 40px ;
+    height:40px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border-radius: 50px;
+    background-color: blue;
+    transition: background-color 1s linear;
+    transform: width 1s linear;
+    margin-left: 10px ;
+  
+ 
+    
+}
+#circulo {
+    min-width: 40px;
+    max-width: max-content;
+    
+    height:40px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+    
+}
+
+#conteudo1 {
+    width: 37px ;
+    height:37px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid black;
+  
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   
+  
+  
+  
+}
+
+
+
+
+#conteudo2 {
+    min-width: 40px;
+    max-width: max-content;
+    
+    height:40px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    text-decoration: underline;
+}
+
+
+ 
+ 
+.teste:hover, #conteudo {
+    
+    min-width: max-content;
+    height:40px ;
+   
+    
+    
+
+    
+ }
+
+
+/*
+#a-user {
+    width: 40px ;
+    height: 35px;
+    background-color: blue;
+    border-radius: 50px;
+    transition: background-color 1s linear;
+    position: absolute;
+    
+
+}
+
+
+
+
+
+#a-user:hover {
+  
+    background-color: rosybrown;
+ }
+
+
+
+
+/*h1 {
+    color: black;
+}
+
+.primeiro-paragrafo {
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: none;
+    justify-content: center;
+}
+*/
+
+/*
+h1 {
+    width: 100%; 
+    text-align: center; 
+    line-height: 0.1em; define linha no meio do texto
+ } 
+*/
+
+.abrirefechar {
+    width: 100px;
+    height: 100px;
+    font-display: flex;
+    flex-direction: row;
+
+    background-color: brown;
+    transition: transform 1s linear;
+}
+
+.buttonabrirefechar {
+    width: 34px;
+    height: 34px;
+    background-color: yellow;
+    margin-left: 85px;
+    transition: background-color 1s linear;
+    transition: transform 1s linear;
+}
+
+.buttonabrirefechar:hover {
+
+    background-color: teal;
+    margin-left: 180px;
+   
+}
+
+.abrirefechar:hover {
+    width: 300px;
+}
+
+form {
+    appearance: none;
+}
+form {
+    max-width: 300px;
+    max-height: max-content;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input {
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    background: tomato;
+    color: thistle;
+
+}
+
+
+
+#trilha {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+    grid-area: te;
+    margin:none;
+    padding: 40px;
+   display: flex;
+   flex-direction: column;
+   font-size: 2.1rem;
+   line-height: 1.4;
+   color: rgb(71, 71, 71)
+   
+                     
+}
+
+
+/*
+.line {
+    height: 100%;
+    width: 0px;
+    border:  2px solid tomato;
+  
+}
+*/
+.alvoright {
+    width: 210px;
+    height: max-content;
+    align-self: flex-end;
+    /*border: 1px solid black;*/
+}
+/*
+.circleright {
+    width: 14px;
+    height: 14px;
+    background-color: burlywood;
+    border-radius: 50px;
+    margin-left: -37px;
+    
+}
+*/
+.alvoleft {
+    width: 210px;
+    height: max-content;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  
+    
+}
+/*
+.circleleft {
+    width: 14px;
+    height: 14px;
+    background-color: black;
+    border-radius: 50px;
+    margin-right: -37px;
+    
+}
+*/
+
+
+
+
+#fist {
+   
+    grid-area: fist;
+    
+    
+}
+
+#second {
+   
+    grid-area: second;
+   
+}
+
+
+#third {
+    
+    grid-area: third;
+    
+}
+   
+
+
+#fifth {
+   
+    grid-area: fifth;
+    
+}
+
+#sixth {
+    grid-area: sixth ;
+ 
+
+}
+
+
+
+#eighth {
+    grid-area:eighth ;
+
+}
+
+#ninth {
+    grid-area:ninth ;
+   
+}
+
+#tenth {
+    grid-area: tenth;
+  
+}
+
+img {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+/*Para telas grandes*/
+@media (max-width: 850px) {
+    
+    html {
+        font-size: 50%;
+    }
+    
+    
+    main {
+        margin-left: 13px;
+       
+    }
+    
+    .main__div1, #main__div2, #ecossistema {
+       
+        padding: 13px;
+       
+      
+    }
+    
+    
+    
+    .midias {
+        padding: 7px;
+    }
+
+
+}
+/*Desktops*/
+
+
+/*Tablets*/
+
+
+/*devices*/
+
+
+

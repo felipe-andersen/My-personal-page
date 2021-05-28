@@ -1,0 +1,31 @@
+header {
+  height: 70px;
+  background-color: tomato;
+   
+}
+
+header > p {
+  padding: 8px;
+
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    fill: black; 
+  }/*(cor de preenchimento dos elementos internos de uma svg)
+  */
+
+  .image {
+    width: 30px;
+    height: 30px;
+    background-color: burlywood;
+    display: flex;
+  }
+
+/*
+  .icon {
+      transform: scale (2);
+  }
+  */

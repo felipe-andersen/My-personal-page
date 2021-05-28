@@ -1,0 +1,44 @@
+html, body, ul, li, p {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    font-size:1vw;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.conteinerprincipal {
+    background: black;
+    color: blanchedalmond;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr  1fr  1fr;
+    grid-template-areas: "header header header"
+                         "aside main main"
+                         "footer footer footer";
+}
+
+header {                
+    background-color: red;
+    color: blanchedalmond;
+    grid-area: header;
+}
+
+aside {
+    background-color: blue;
+    grid-area: aside;
+}
+
+main {
+    background-color: violet ;
+    grid-area: main;
+}
+
+footer {
+    background-color: crimson;
+    grid-area: footer;
+}

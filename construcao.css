@@ -1,0 +1,132 @@
+
+body {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: min-content;
+    background-color: tomato;
+    position: fixed;
+    z-index: 9999;
+    box-shadow: 0px 1px 5px 0px  black ;
+    
+}
+
+
+header > p {
+    padding: 11px;
+  
+  }
+.conteudo {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.welcome {
+   
+ 
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-color: white;
+    flex-direction: column;
+    margin: 97px 100px 25px 100px;
+    border-radius: 15px;
+   
+}
+
+.ambiente {
+    
+   
+    box-sizing: border-box;
+    background-color: blue;
+    
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "aa ae";
+    margin: 0px 100px 25px 100px;
+}
+
+.video {
+    
+    padding: 30px;
+    
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px 25px 25px 0px;
+    grid-area: aa;
+    border-radius: 0px 0px 10px 10px;
+}
+
+/*Acho que o conteúdo nunca fica menor que o padding.*/
+.trilha {
+    padding: 30px;
+    background-color: white;
+    box-sizing: border-box;
+    margin: 0px 0px 25px 0px;
+    grid-area: ae;
+    border-radius: 10px;
+    display: flex;
+}
+
+.line {
+    width: 3px;
+    height: 100%;
+    background-color: green;
+}
+
+.boll {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: green;
+    position: absolute;
+    margin-left: -6px;
+    animation: a-boll 1s ease-in alternate infinite;
+}
+
+
+.quadrado {
+    width:50px ;
+    height: 50px;
+    background-color: blue;
+}
+
+
+
+
+
+/*animation-name: a-quadrado;
+    animation-duration: 1s;
+    animation-timing-function: ease; /*transição*/ 
+    /*cubic-bezier(0.2,1.65, -0.35, 1.28);*/
+
+/*Keyframes (define a localização chave das fases/quadros), animatios e eases. propriedades: nome, duração/time.  Para ter keyframes precisa ter um object para ser dividi nessas keyframes.*/
+
+
+
+
+@keyframes a-boll {
+    30% {
+         /*(máximo = 1, mínimo 1/100)*/
+        background-color: chartreuse;
+    }
+    60% {
+        background-color: green;
+        
+    }
+    100% {
+     
+        background-color: chartreuse;
+    }
+}
+

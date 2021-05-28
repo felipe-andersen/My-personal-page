@@ -1,0 +1,37 @@
+{
+    "regionBR": {
+        
+            "Sudeste": {
+                "Espírito Santo":"",
+                "minas Gerais":"",
+                "Rio de Janeiro":["Rio de Janeiro"],
+                "São Paulo": [""]
+            },
+
+            "Sul": {
+                "Rio Grande Do Sul":"",
+                "Santa Catarina":"",
+                "Paraná":""
+
+            },
+
+            "Nordeste": [
+                "Bahia",
+                "Ceará"
+            ],
+
+            "Norte": [
+                "Pará"
+            ],
+
+            "Centro-Oeste": [
+                "Mato Grosso do Sul"
+            ],
+
+            "Noroeste": [
+                "Amazonas"
+            ]
+        }
+    
+}
+
